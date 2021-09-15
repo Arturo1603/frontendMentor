@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(10, 12, 27) ; 
+    color: white;
+
+
+}
+main{
+    height: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section{
+    width: 1000px;
+    height: 400px;
+    background-color: hsl(277, 64%, 61%);
+    
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+.card{
+    display: flex;
+    border-radius: 8px;
+}
+img{
+    mix-blend-mode: multiply;
+    background-color: hsl(277, 64%, 61%) ;
+    width: 50%;
+    
+}
+.card .cuadro1{
+    background-color: rgb(28, 25, 56);
+    width: 50%;
+}
+
+.text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.text p{
+    margin-right: 80px;
+    color: gray;
+    line-height: 1.5em;
+}
+.text{
+    padding: 50px;
+}
+.data{
+    margin-top: 60px;
+    display: flex;
+}
+.numeros{
+    font-size: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.data p{
+    font-size: 13px;
+    line-height: 2em;
+}
